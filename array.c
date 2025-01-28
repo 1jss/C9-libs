@@ -1,8 +1,9 @@
 #ifndef C9_ARRAY
 
 #include <string.h> // memcpy
-#include "arena.h" // Arena, arena_fill
-#include "types.h" // i32
+
+#include "types.c" // i32
+#include "arena.c" // Arena, arena_fill
 
 /*
 

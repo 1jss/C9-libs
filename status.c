@@ -1,10 +1,10 @@
 #ifndef C9_STATUS
 
-#include "types.h" // i32
+#include "types.c" // i32
 
 /*
 
-This header defines a struct that can be used as a namespaced enum for status codes. The struct has two fields: OK and ERROR, which are both int32_t. The values of the fields are 0 and 1, respectively.
+C9 status defines a struct that can be used as a namespaced enum for status codes. The struct has two fields: OK and ERROR, which are both int32_t. The values of the fields are 0 and 1, respectively.
 
 Use the status struct to return status codes from functions. For example:
 
